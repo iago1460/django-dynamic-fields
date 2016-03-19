@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+
+
+{% block content %}
+    <h2>Thank you for your time!</h2>
+    {% for label, value in values %}
+        <h5>{{ label|capfirst }}: {{ value|default:'N/A' }} </h5>
+    {% endfor %}
+{% endblock %}

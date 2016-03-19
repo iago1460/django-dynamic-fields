@@ -1,0 +1,5 @@
+git+git://github.com/iago1460/django-dynamic-fields.git@master
+Django==1.9.4
+psycopg2
+fabric==1.10.2
+django-bootstrap3==7.0.0
