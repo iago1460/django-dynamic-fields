@@ -14,7 +14,7 @@ This repo contains an example project under the example folder, you need to edit
 Open a terminal and introduce the following commands::
 
     git clone https://github.com/iago1460/django-dynamic-fields
-    cd example
+    cd django-dynamic-fields/example
     virtualenv venv
     source venv/bin/activate
     pip install -r requirements.txt
